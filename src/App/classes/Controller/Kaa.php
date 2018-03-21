@@ -7,7 +7,12 @@ class Kaa extends Controller\Controller
 {
     public function index()
     {
-        echo 'ПРЕВЕД job1';
+        echo _view(
+            'kaa/huyilighopa',
+            ['h1' => 'Уважаимый!!!'],
+        );
+        // ->set('h1', 'Уважаимый!!!');
+
     }
 
     public function hello()
