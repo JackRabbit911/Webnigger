@@ -7,9 +7,13 @@
 use Core\Route;
 
 
-//Route::set('test', 'test')->callback(function(){
-//    echo '<h1>Hello, World</h1>';
-//});
+// Route::set('kaa', 'kaa(/<action>(/<param>))')
+//         ->defaults(
+//                 [
+//                         'controller'    => 'kaa',
+//                         'action'        => 'index',
+//                 ]
+//         );
 
 Route::set('test', 'test(/<action>(/<param>))(?<query>)')->defaults(array(
     'controller' => 'test',
