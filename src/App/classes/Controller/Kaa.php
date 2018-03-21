@@ -14,4 +14,9 @@ class Kaa extends Controller\Controller
     {
         echo 'ПРЕВЕД, MEDVED! job1';
     }
+
+    public function zay()
+    {
+        echo 'ZAY is World thr best of the best!!! job1';
+    }
 }
