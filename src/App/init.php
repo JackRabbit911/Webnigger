@@ -7,13 +7,13 @@
 use Core\Route;
 
 
-// Route::set('kaa', 'kaa(/<action>(/<param>))')
-//         ->defaults(
-//                 [
-//                         'controller'    => 'kaa',
-//                         'action'        => 'index',
-//                 ]
-//         );
+Route::set('kaa', 'kaa(/<action>(/<param>))')
+        ->defaults(
+                [
+                        'controller'    => 'kaa',
+                        'action'        => 'index',
+                ]
+        );
 
 Route::set('test', 'test(/<action>(/<param>))(?<query>)')->defaults(array(
     'controller' => 'test',
