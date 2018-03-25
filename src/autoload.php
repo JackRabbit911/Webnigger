@@ -7,6 +7,9 @@ $autoloader = Core\Autoload::instance();
 // the first load module "App" (application)
 $autoloader->addModule('App');
 
+// the last load module "Kaa" (application)
+$autoloader->addModule('Kaa');
+
 // here load all necessary modules that we use
 $autoloader->addModule(['Modules/Form' => 'Form', 'Modules/User' => 'User']);
 //$autoloader->addModule('Modules/User');
