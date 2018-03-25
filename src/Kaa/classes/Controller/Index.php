@@ -3,15 +3,11 @@ namespace Kaa\Controller;
 
 use Core\Controller;
 
-class Index extends Controller\Controller
+class Index extends Controller\Template
 {
     public function index()
     {
-        echo 'ПРЕВЕД job1';
-    }
-
-    public function hello()
-    {
-        echo 'ПРЕВЕД, MEDVED! job1';
+        $this->template = 'kaa/template';
+        $this->template->content = 'ПРЕВЕД job002';
     }
 }
