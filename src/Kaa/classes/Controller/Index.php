@@ -1,9 +1,9 @@
 <?php
-namespace App\Controller;
+namespace Kaa\Controller;
 
 use Core\Controller;
 
-class Kaa extends Controller\Controller
+class Index extends Controller\Controller
 {
     public function index()
     {
